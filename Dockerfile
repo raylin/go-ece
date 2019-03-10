@@ -11,4 +11,4 @@ COPY go.mod .
 RUN go mod download
 
 COPY . .
-RUN go build
+RUN go test
